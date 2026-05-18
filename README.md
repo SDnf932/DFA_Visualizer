@@ -4,6 +4,10 @@ Interactive DFA Visualizer and String Processor built with Streamlit.
 
 The app lets you define a deterministic finite automaton, inspect its graph, and step through string simulation one transition at a time or with autoplay.
 
+## Demo video for ease of usage
+
+[Demo video](https://www.youtube.com/watch?v=SEWxQhleJ5A)
+
 ## Features
 
 - Define a DFA using the quintuple $(Q, \Sigma, \delta, q_0, F)$.
