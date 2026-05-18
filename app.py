@@ -241,11 +241,11 @@ left, right = st.columns([1, 1])
 with left:
     st.subheader("Define DFA quintuple (Q, \u03A3, \u03B4, q0, F)") # Unicode for Sigma and delta: "\u03A3, \u03B4"
     st.text_input("States Q (comma-separated)", key="states_text")
-    st.text_input("Alphabet Sigma (comma-separated)", key="alphabet_text")
+    st.text_input("Alphabet \u03A3 (comma-separated)", key="alphabet_text")
     st.selectbox("Start state q0", options=states, key="start_state")
     st.multiselect("Final states F", options=states, key="accept_states")
     st.text_area(
-        "Transitions delta, one per line: state,symbol->next_state",
+        "Transitions \u03B4, one per line: state,symbol->next_state",
         key="transition_text",
         height=220,
     )
